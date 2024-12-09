@@ -10,7 +10,6 @@ public class ReactController : MonoBehaviour
     // set UI label text
     public void SetText(string text) {
         var root = menu.GetComponent<UIDocument>().rootVisualElement;
-        Debug.Log(root);
         var label = root.Q<Label>("label");
         label.text = text;
     }
