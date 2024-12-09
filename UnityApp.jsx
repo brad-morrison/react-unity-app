@@ -16,11 +16,15 @@ function UnityApp() {
   const [messageTwo, setMessageTwo] = useState("This is message two.");
   const [messageThree, setMessageThree] = useState("This is message three.");
 
-  // call 'SetText' method in Unity, from GameObject 'React', with message state as parameter
+  // Function that is called by Unity on button press
+  // React then sends a message back
   window.ButtonClicked = () => {
+    console.log("Unity button clicked");
     sendMessage("React", "SetText", "Clicked from Unity!! via React!!");
   };
 
+  // Simple message send to Unity
+  // Fires function "SetText", on GameObject "React", with 'message' as parameter
   const sendMessageToUnity = (message) => {
     sendMessage("React", "SetText", message);
   };
