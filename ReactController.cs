@@ -6,11 +6,7 @@ using UnityEngine.UIElements;
 public class ReactController : MonoBehaviour
 {
     public GameObject menu;
-    void Start()
-    {
-        SetText("Tester");
-    }
-
+    
     // set UI label text
     public void SetText(string text) {
         var root = menu.GetComponent<UIDocument>().rootVisualElement;
