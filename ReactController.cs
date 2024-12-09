@@ -16,6 +16,7 @@ public class ReactController : MonoBehaviour
 
     // button clicked
     public void OnButtonClick() {
+        // calls function 'ButtonClicked' in React
         UnityEngine.Application.ExternalCall("ButtonClicked");
     }
 }
