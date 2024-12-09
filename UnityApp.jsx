@@ -4,6 +4,7 @@ import { Unity, useUnityContext } from "react-unity-webgl"; // import react-unit
 
 function UnityApp() {
   // useUnityContext hook to load Unity content
+  // (game files places in - /Public folder)
   const { unityProvider, isLoaded, loadingProgression, sendMessage } =
     useUnityContext({
       loaderUrl: "/Build/web.loader.js",
