@@ -8,4 +8,7 @@ test project build folder - https://drive.google.com/file/d/17ujw1VYXkci23Zc5INA
 
 ---
 
-Unity build that has 'Send to React' button which sends dummy player data to the React app.
+### Unity Build that sends dummy player data to React
+
+Unity build that has 'Send to React' button which sends dummy player data to the React app:
+
