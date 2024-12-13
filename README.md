@@ -12,5 +12,5 @@ test project build folder - https://drive.google.com/file/d/17ujw1VYXkci23Zc5INA
 
 Unity build that has 'Send to React' button which sends dummy player data to the React app: [Build.zip] in repo files
 
-Unity script calls 'UnityEngine.Application.ExternalCall("receiveDataFromUnity", jsonData);'
+Unity script calls '''UnityEngine.Application.ExternalCall("receiveDataFromUnity", jsonData);'''
 
